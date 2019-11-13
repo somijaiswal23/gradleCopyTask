@@ -53,6 +53,7 @@ F:\gradleCopyTask>cd src
 
 F:\gradleCopyTask\src>
 ```
+## Add text file
 Create a simple text file inside src folder, and write some message.
 
 The folder structure will now look like this:
@@ -70,7 +71,7 @@ The folder structure will now look like this:
 ├── gradlew.bat  
 └── settings.gradle  
 ```
-
+## Create Task
 Now open build.gradle and write below task. This will be having some comment. You can clear it.
 
 ```
@@ -81,6 +82,7 @@ task copy(type: Copy, group: "Custom", description: "Copies sources to the dest 
 ```
 Here, group and description can be anything you want. You can even omit them. Now execute your new copy task from cmd:
 
+## Run Task
 ```
 F:\gradleCopyTask\src>cd ..
 
